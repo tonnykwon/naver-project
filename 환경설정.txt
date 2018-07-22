@@ -1,0 +1,5 @@
+python -m venv naver_env
+python -m pip install --upgrade pip
+pip install -r requirement.txt
+
+python -m ipykernel install --user --name naver_env --display-name "naver_env"
